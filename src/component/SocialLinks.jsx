@@ -62,7 +62,7 @@ export default function SocialLinks() {
     <div className="hidden lg:flex flex-col top-[33%] left-0 fixed text-white ">
       <ul>
         {
-            link.map(({id,child,href,style,download})=><li className= {" w-40  h-13 py-1.5 flex items-center px-4 ml-[-100px] hover:ml-[-10px] ease-linear duration-300 bg-gray-500 "+ style}  >
+            link.map(({id,child,href,style,download})=><li className= {" w-40  h-13 py-1.5 flex items-center px-4 -ml-24 hover:ml-0 ease-linear duration-300 bg-gray-500 "+ style}  >
             <a href={href} download={download} target="_blank" rel="noreferrer" className="flex justify-between items-center w-full">
                 {child}
             </a>
