@@ -15,7 +15,7 @@ const Contact = () => {
               type="text"
               placeholder=" "
               id="user_name"
-              className="w-5/6 bg-inherit px-3 py-2 border rounded-md  input-text "
+              className="w-5/6 bg-inherit px-3 py-2 border rounded-md  input-text  "
             />
             <label
               htmlFor="user_name"

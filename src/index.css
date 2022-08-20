@@ -14,12 +14,12 @@
   }
 }
 @layer components {
-  .input-label{
-  transition:0.3s ease;
+  .input-label {
+    transition: 0.3s ease !important;
   }
-  .input-text:focus~.input-label , .input-text:not(:placeholder-shown)~.input-label {
-    top:-0.9rem;
-    background-color:#131313;
+  .input-text:focus ~ .input-label,
+  .input-text:not(:placeholder-shown) ~ .input-label {
+    top: -0.9rem !important;
+    background-color: #131313 !important;
   }
 }
-
