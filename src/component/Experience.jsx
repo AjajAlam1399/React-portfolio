@@ -70,48 +70,34 @@ export default function Experience(){
         },
         {
             id:9,
-            pic:Php,
-            name:"Php",
-            shadow:"shadow-indigo-200",
-            style:"pb-9"
-        },
-        {
-            id:10,
             pic:mysql,
             name:"Mysql",
             shadow:"shadow-blue-800",
             style:"pb-7"
         },
         {
-            id:11,
+            id:10,
             pic:NoodeJs,
             name:"NodeJs",
             shadow:"shadow-green-700",
             style:"pb-7"
         },
         {
-            id:12,
+            id:11,
             pic:Express,
             name:"ExpresJs",
             shadow:"shadow-slate-300",
             style:"pb-10"
         },
         {
-            id:13,
+            id:12,
             pic:MongoDb,
             name:"MongoDb",
             shadow:"shadow-green-400",
             
         },
         {
-            id:14,
-            pic:GreenSock,
-            name:"GSAP",
-            shadow:"shadow-green-200"
-            
-        },
-        {
-            id:15,
+            id:13,
             pic:Sass,
             name:"Sass",
             shadow:"shadow-pink-600",
