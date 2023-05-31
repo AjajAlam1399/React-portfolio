@@ -36,12 +36,6 @@ export default function Experience(){
             shadow:"shadow-amber-300"
         },
         {
-            id:4,
-            pic:Jquery,
-            name:"Jquery",
-            shadow:"shadow-blue-900"
-        },
-        {
             id:5,
             pic:ReactPic,
             name:"ReactJS",

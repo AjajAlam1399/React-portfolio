@@ -32,7 +32,7 @@ export default function SocialLinks() {
           <AiOutlineMail size={30} />
         </>
       ),
-      href:'#',
+      href:'mailto:2020umt1399@mnit.ac.in',
     },
     {
         id: 4,
@@ -42,7 +42,7 @@ export default function SocialLinks() {
             <BsTwitter size={30} />
           </>
         ),
-        href:'https://twitter.com/iamAjajAhmd',
+        href:'https://twitter.com/iamAjajAlam',
       },
     {
       id: 5,
@@ -52,7 +52,7 @@ export default function SocialLinks() {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href:'#',
+      href:'/AJAJ_ RESUME.pdf',
       style:'rounded-br-md',
       download:true,
     },
