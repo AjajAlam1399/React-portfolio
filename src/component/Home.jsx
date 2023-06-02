@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "../asset/Hero.png";
-import {AiOutlineArrowRight} from 'react-icons/ai';
+// import {AiOutlineArrowRight} from 'react-icons/ai'; 
+ import resume from '../asset/resume1.pdf'
 export default function Home() {
   return (
     <div
@@ -17,12 +18,8 @@ export default function Home() {
             My name is Ajaj Alam.<br></br>I have 1 year of exprience bulding and
             desgining Application.
           </p>
-          
-            <a href="/AJAJ_ RESUME.pdf" download={true} target="_blank" rel="noreferrer" className="flex items-center group py-1.5 px-3 w-24 rounded-lg bg-gradient-to-r from-cyan-500 text-sm to-blue-500 mb-4">
+            <a href={resume} download={true}  className="flex items-center group py-1.5 px-3 w-24 rounded-lg bg-gradient-to-r from-cyan-500 text-sm to-blue-500 mb-4">
               Resume
-              <span className="pl-1 group-hover:translate-x-1 ease-linear duration-300">
-                <AiOutlineArrowRight />
-              </span>
             </a>
         </div>
         <div className="sm:w-72 mt-4 md:mt-0 h-80 md:h-80  md:w-72 hover:">
