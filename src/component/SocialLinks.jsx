@@ -54,7 +54,7 @@ export default function SocialLinks() {
           <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href:'/AJAJ_ RESUME.pdf',
+      href:'/AJAJ_ RESUME_1399.pdf',
       style:'rounded-br-md',
       download:true,
     },

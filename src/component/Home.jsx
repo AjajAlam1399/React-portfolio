@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "../asset/Hero.png";
 import {AiOutlineArrowRight} from 'react-icons/ai'; 
- import resume from '../asset/resume1.pdf'
+ import resume from '../asset/AJAJ_ RESUME_1399.pdf'
 export default function Home() {
   return (
     <div
