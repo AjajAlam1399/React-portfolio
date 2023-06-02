@@ -18,7 +18,7 @@ export default function Home() {
             desgining Application.
           </p>
           
-            <a href="/AJAJ_ RESUME.pdf" target="_blank" rel="noreferrer" className="flex items-center group py-1.5 px-3 w-24 rounded-lg bg-gradient-to-r from-cyan-500 text-sm to-blue-500 mb-4">
+            <a href="/AJAJ_ RESUME.pdf" download={true} target="_blank" rel="noreferrer" className="flex items-center group py-1.5 px-3 w-24 rounded-lg bg-gradient-to-r from-cyan-500 text-sm to-blue-500 mb-4">
               Resume
               <span className="pl-1 group-hover:translate-x-1 ease-linear duration-300">
                 <AiOutlineArrowRight />
