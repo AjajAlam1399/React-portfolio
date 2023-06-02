@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../asset/Hero.png";
-// import {AiOutlineArrowRight} from 'react-icons/ai'; 
+import {AiOutlineArrowRight} from 'react-icons/ai'; 
  import resume from '../asset/resume1.pdf'
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
             desgining Application.
           </p>
             <a href={resume} download={true}  className="flex items-center group py-1.5 px-3 w-24 rounded-lg bg-gradient-to-r from-cyan-500 text-sm to-blue-500 mb-4">
-              Resume
+              Resume{"  "} <AiOutlineArrowRight></AiOutlineArrowRight>
             </a>
         </div>
         <div className="sm:w-72 mt-4 md:mt-0 h-80 md:h-80  md:w-72 hover:">

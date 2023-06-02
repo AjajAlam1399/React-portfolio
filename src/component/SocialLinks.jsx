@@ -1,6 +1,8 @@
 import React from "react";
 import { AiFillLinkedin,AiOutlineMail } from "react-icons/ai";
 import { BsTwitter, BsGithub, BsFillPersonLinesFill } from "react-icons/bs";
+
+// import resume from  '../asset/resume1.pdf'
 export default function SocialLinks() {
   const link = [
     {
