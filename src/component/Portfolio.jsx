@@ -1,10 +1,19 @@
 import React from "react";
 import first from "../asset/portfolio/1ST.png";
+import Movix from '../asset/portfolio/Movix.png'
 export default function Portfolio() {
   let img = [
     {
       id: 1,
+      pic: Movix,
+      Demo:"https://aj-movix-web.netlify.app/",
+      Code:"https://github.com/AjajAlam1399/Movix"
+    },
+    {
+      id: 1,
       pic: first,
+      Demo:"https://ajajalam1399.github.io/My_first_responsive_website/",
+      Code:"https://github.com/AjajAlam1399/My_first_responsive_website"
     },
   ];
   return (
@@ -16,12 +25,12 @@ export default function Portfolio() {
         </div>
         <ul className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
           {
-            img.map(({id,pic})=><li key={id}>
+            img.map(({id,pic,Demo,Code})=><li key={id}>
               <img className="rounded-t-lg hover:scale-105 duration-300 ease-linear" src={pic} alt="" />
               <div className="flex justify-center items-center shadow-sm shadow-gray-100 rounded-b-lg">
-                <a href=" https://ajajalam1399.github.io/My_first_responsive_website/" target="_blank"><button className="w-1/2 px-6 py-3">Demo</button></a>
+                <a href={Demo} target="_blank"><button className="w-1/2 px-6 py-3">Demo</button></a>
                
-                <a href="https://github.com/AjajAlam1399/My_first_responsive_website" target='_blank' rel="noreferrer" > <button className="w-1/2 px-6 py-3">Code</button></a>
+                <a href={Code}target='_blank' rel="noreferrer" > <button className="w-1/2 px-6 py-3">Code</button></a>
               </div>
             </li>
             )

@@ -10,7 +10,7 @@ export default function Home() {
     >
       <div className="md:space-x-12 max-w-screen-lg px-10 lg:px-0 mx-auto flex justify-center  items-center h-full text-white flex-col md:flex-row">
         <div className="">
-          <h1 className="md:text-6xl  text-xl font-normal pt-14 md:pt-0">
+          <h1 className="md:text-4xl  text-xl font-normal pt-14 md:pt-0">
             I'm a Full Stack Web & App Developer{" "}
           </h1>
           <p className="text-slate-400 md:py-6 text-xs md:text-lg py-5">

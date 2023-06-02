@@ -36,7 +36,7 @@ export default function Navbar(){
             <div className='font-medium text-3xl text-white block md:hidden hover:cursor-pointer ease-linear duration-500 transition z-20' onClick={humbergerClick}>{humberger?(< AiOutlineMenu/>):<AiOutlineClose/>}</div>
             <ul className='hidden md:flex'>
                 {
-                    links.map(({id,link})=><li key={id} className='text-slate-400 hover:scale-110 hover:text-white duration-300 ease-linear px-7'><Link to={link} smooth duration={500}>{link}</Link></li>
+                    links.map(({id,link})=><li key={id} className='text-slate-400 hover:scale-110 hover:text-white duration-300 ease-linear px-7 cursor-pointer'><Link to={link} smooth duration={500}>{link}</Link></li>
                     )
                 }
             </ul>

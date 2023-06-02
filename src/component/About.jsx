@@ -8,21 +8,12 @@ export default function About() {
           <p className="text-4xl border-b-2 w-[6.4rem] mb-16">About</p>
         </div>
         <p className="font-extralight text-slate-200">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error
-          distinctio optio rerum soluta deleniti, repudiandae, vel, possimus
-          debitis eaque a pariatur in harum aperiam inventore aliquam assumenda
-          ab vitae? Quae, dolor laboriosam nulla, est in deserunt impedit quia
-          quam ut sapiente minima at unde voluptatum possimus suscipit
-          praesentium eveniet deleniti.
+          
         </p>
         <br></br>
         <p className="font-extralight text-slate-200">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-          dolorem ab id exercitationem doloremque vero suscipit est hic,
-          incidunt maxime, quae vel dolorum a commodi ipsum aspernatur sunt
-          deserunt vitae perferendis, sapiente quo cupiditate atque alias unde.
-          Porro quos, quisquam necessitatibus, modi animi dicta consequuntur a
-          corporis fuga quae nisi!
+        Technology enthusiast. Software developer by day, learner by night. Always up for a challenge! #coder<br></br>---<br/>
+        Exploring the world of technology and engineering with an open mind. Passionate about learning new things and putting them into practice.<br/>--<br/>Striving for excellence in all aspects of life. A 7th Sem B-Tech student at MNIT Jaipur, passionate about technology and the power of knowledge. Let's get to know each other!
         </p>
       </div>
     </div>

@@ -6,9 +6,10 @@ import Jquery from '../asset/Expreience/Jquery.png';
 import ReactPic from '../asset/Expreience/react.png';
 import Tailwind from '../asset/Expreience/tailwind.png';
 import Bootstrap from '../asset/Expreience/Bootstrap.png';
-import GreenSock from '../asset/Expreience/GreenSock.png';
+
 import github from '../asset/Expreience/github.png';
-import Php from '../asset/Expreience/Php.png';
+import ReactNative from '../asset/Expreience/React-Native.png'
+import Redux from '../asset/Expreience/Redux.png'
 import mysql from '../asset/Expreience/Mysql.png';
 import NoodeJs from '../asset/Expreience/Nodejs.png';
 import Express from '../asset/Expreience/Express.png';
@@ -36,10 +37,18 @@ export default function Experience(){
             shadow:"shadow-amber-300"
         },
         {
-            id:5,
+            id:14,
             pic:ReactPic,
             name:"ReactJS",
             shadow:"shadow-cyan-400"
+            
+        },
+        {
+            id:5,
+            pic:ReactNative,
+            name:"Native",
+            shadow:"shadow-cyan-400",
+            text:"text-sm"
             
         },
         {
@@ -98,6 +107,14 @@ export default function Experience(){
             style:"pb-6"
             
         },
+        {
+            id:15,
+            pic:Redux,
+            name:"Redux",
+            shadow:"shadow-indigo-500",
+            style:"pb-6"
+            
+        },
     ]
     return(
         <div name="Experience" className="bg-gradient-to-t from-black to-slate-800 py-28  text-white">
@@ -107,13 +124,13 @@ export default function Experience(){
                         <p className="text-4xl   border-b-2 w-[9rem] mb-4">Experience</p>
                         <p className="mb-6">These are the technologies i've worked with</p>
                     </div>
-                    <ul className="grid sm:grid-cols-3 grid-cols-2 gap-12 ">
+                    <ul className="grid sm:grid-cols-3 grid-cols-2 gap-12 items-center ">
                         {
-                            ExpPic.map(({id,pic,name,shadow,style})=><li key={id}>
+                            ExpPic.map(({id,pic,name,shadow,style,text})=><li key={id}>
                                <div className={" py-3 shadow-md " + shadow +" "+style}>
                                 <img src={pic} alt="" className="w-20 mx-auto"/>
                                 <div className="w-20 mx-auto flex justify-center">
-                                <p className="mt-3">{name}</p>
+                                <p className={"mt-3"+text}>{name}</p>
                                 </div>
                                </div>
                             </li>
