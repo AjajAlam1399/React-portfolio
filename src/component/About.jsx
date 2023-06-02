@@ -12,7 +12,6 @@ export default function About() {
         </p>
         <br></br>
         <p className="font-extralight text-slate-200">
-        Technology enthusiast. Software developer by day, learner by night. Always up for a challenge! #coder<br></br>---<br/>
         Exploring the world of technology and engineering with an open mind. Passionate about learning new things and putting them into practice.<br/>--<br/>Striving for excellence in all aspects of life. A 7th Sem B-Tech student at MNIT Jaipur, passionate about technology and the power of knowledge. Let's get to know each other!
         </p>
       </div>
